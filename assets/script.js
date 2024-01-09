@@ -60,12 +60,13 @@ let slidersList = document.createElement("ul")
 		bulletpoint[index].classList.remove("dot_selected")
 		
 		index++
-		if (index >= slides.length -1) {
+		if (index >= slides.length) {
 			index = 0
 		}
 		bannerImg.setAttribute("src", slides[index].image)
 		bannerCaption.innerHTML = slides[index].tagLine
 		bulletpoint[index].classList.add("dot_selected")
+		console.log(index)
 	})
 
 
