@@ -1,5 +1,5 @@
-## Print-It WebSite
-# An OpenClassroom's Project
+# Print-It WebSite
+## An OpenClassroom's Project
 
 Discovery of Javascript through a simple project: making a carousel for a static website.
 
